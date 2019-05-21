@@ -1,0 +1,134 @@
+.section1 {
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+
+  #homepage-quote {
+    position: relative;
+    display: inline-block;
+    top: 80%;
+
+    span {
+      color: white;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
+}
+
+.section1-bar {
+  height: 6%;
+  width: 100%;
+  background-color: #920037;
+  text-align: center;
+
+  span {
+    position: relative;
+    top: 5%;
+    font-size: 30px;
+    color: white;
+  }
+}
+
+.section2 {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+  padding: 0 345px 0 345px;
+
+  #section2-title {
+    font-size: 50px;
+  }
+
+  .section2-left {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+
+    #section2-left-title {
+      float: left;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    #section2-left-image {
+      height: 400px;
+      max-width: 100%;
+      float: left;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: all 1s ease-in-out;
+      }
+
+      img:hover {
+        transform: scale(1.01);
+        z-index: 1;
+        opacity: 0.5;
+      }
+    }
+
+    #section2-left-description {
+      display: inline-block;
+      margin-top: 5%;
+
+      span {
+        display: inline-block;
+        text-align: left;
+      }
+    }
+  }
+
+  .section2-right {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    margin-top: 10%;
+
+    #section2-right-title {
+      float: left;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    #section2-right-image {
+      height: 400px;
+      max-width: 100%;
+      float: right;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+      }
+
+      img:hover {
+        transform: scale(1.01);
+        z-index: 1;
+        opacity: 0.5;
+      }
+    }
+
+    #section2-right-description {
+      display: inline-block;
+      margin-top: 5%;
+
+      span {
+        display: inline-block;
+        text-align: left;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+

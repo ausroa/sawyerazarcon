@@ -1,0 +1,29 @@
+.navbar-container {
+  display: inline-block;
+  height: 90px;
+  width: 100%;
+
+  #navbar-logo {
+    position: relative;
+    top: 25%;
+    left: 20%;
+    display: inline-block;
+  }
+
+  #navbar-links {
+    position: relative;
+    display: inline-block;
+    top: 25%;
+    float: right;
+    width: 50%;
+    white-space: nowrap;
+
+    a {
+      margin-right: 5%;
+      text-transform: uppercase;
+      color: grey;
+      font-weight: bold;
+      float: left;
+    }
+  }
+}
